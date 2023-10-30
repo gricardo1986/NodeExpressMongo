@@ -1,0 +1,18 @@
+GET http://localhost:3000/api/bicicletas
+
+
+#######
+POST http://localhost:3000/api/bicicletas/create
+Content-Type: application/json
+
+{
+    "id": "3",
+    "color": "amarillo",
+    "modelo": "deportiva",
+    "lat": "12",
+    "lng":"4"
+}
+
+
+######
+DELETE http://localhost:3000/api/bicicletas/delete/2
